@@ -12,6 +12,7 @@ import Charcuterie_Boards from './pages/Charcuterie_Boards'
 import Login from './pages/Login';
 // CSS
 import './App.css';
+import Header from './pages/Charcuterie_Boards/Header';
  
  
 function App() {
@@ -30,14 +31,14 @@ const [user, setUser] = useState('')
       <Nav />
       </UserContext.Provider>
 
-       
-
       <Routes>
       {/* setuser is property and {setuser} is the state */}
         <Route path = 'login' element={<Login setUser={setUser} />} />
         <Route path = 'Home' element={<Home />} />
         <Route path = 'Charcuterie_Boards' element={<Charcuterie_Boards />} />
       </Routes>
+
+      
       
     </div>
   );
