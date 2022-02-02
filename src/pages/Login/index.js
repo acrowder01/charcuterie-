@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { useNavigate } from 'react-router-dom'
 // import React from 'react';
  
 //  import './styles.CSS'
@@ -8,6 +8,8 @@ const Login = ({ setUser }) => {
 // creating state for logging in and rendering the nav bar
 
     const [username, setUsername] = useState('')
+    //create a const for useNavigate function to redirect the login page after submitting
+    const navigate = useNavigate()
 
 //create handlechange for submit
     const handleChange = e =>{
@@ -16,9 +18,16 @@ const Login = ({ setUser }) => {
         const handleSubmit = e => {
             e.preventDefault()
             setUser(username)
+
+             // UseNavigate to redirect the users to a different page
+        navigate('/Charcuterie_Boards')
+
         }
 
-        // console.log('props',setUser())
+
+// console.log('props',setUser())
+
+        
 
     return (
 
