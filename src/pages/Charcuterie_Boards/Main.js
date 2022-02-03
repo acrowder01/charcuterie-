@@ -1,31 +1,18 @@
 import React from 'react';
 import Product from '../../components/Product';
 import "./Styles.css"
+import data from '../../components/data';
 
-const Main = (props) => {
-
-    const { products } = props;
-    // console.log( {products})
-
+export default function Main(props) {
+    const { products, onAdd } = props;
     return (
-      
-        <main className="block col-2">
-
-            <h2>(main)Products</h2>
-
-            <div className='row'>
-                {/* {products.map((product) => {
-                    <Product key={product.id} product={product}></Product>
-                })} */}
-
-                
-
-
-            </div>
-        </main>
-
-
+      <main className="block col-2">
+        <h2>Products</h2>
+        <div className="row">
+          {products.map((product) => (
+            <Product key={product.id} product={product} onAdd={onAdd}></Product>
+          ))}
+        </div>
+      </main>
     );
-}
-
-export default Main;
+  }

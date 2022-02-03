@@ -6,7 +6,7 @@ const Header = () => {
         <header className="row block center">
             <div >
                 <a href="#">
-                    <h1>Small Shopping Cart</h1>
+                    <h1>Shopping Cart</h1>
                 </a>
             </div>
             <div>

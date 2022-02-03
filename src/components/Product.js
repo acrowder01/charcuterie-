@@ -1,19 +1,23 @@
-import React from 'react';
-import data from './data';
+ import React from 'react';
+ 
+ export default function Product (props)  {
+     const {product} = props;
 
-const Product = (props) => {
-    const {product} = props;
-    return (
-        <div>
-            <img className='small' src={product.image} alt={product.name}></img>
+ 
+     console.log("this is inside products.js")
+     
+     return (
+         <div>
+             
+            <img className='small'  src={product.image} alt={product.name}></img>
             <h3>{product.name}</h3>
-            <div> ${product.price}</div>
+            <div>${product.price}</div>
             <div>
-                <button> Add to Cart </button>
-                </div>
-
-        </div>
-    );
-}
-
-export default Product;
+                <button>Add to Cart</button>
+            </div>
+         </div>
+     )
+ }
+ 
+ 
+ 
