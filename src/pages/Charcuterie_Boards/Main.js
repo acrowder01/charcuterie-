@@ -1,12 +1,27 @@
 import React from 'react';
+import Product from '../../components/Product';
 import "./Styles.css"
 
-const Main = () => {
-    return (
-        <main className="block col-2">
-            <h2>Products</h2>
+const Main = (props) => {
 
-            <div className='row'> </div>
+    const { products } = props;
+    // console.log( {products})
+
+    return (
+      
+        <main className="block col-2">
+
+            <h2>(main)Products</h2>
+
+            <div className='row'>
+                {/* {products.map((product) => {
+                    <Product key={product.id} product={product}></Product>
+                })} */}
+
+                
+
+
+            </div>
         </main>
 
 

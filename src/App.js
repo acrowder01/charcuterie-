@@ -3,8 +3,13 @@ import { Routes, Route} from 'react-router-dom'
 
 //importing components
 import Nav from './components/Nav';
+
  //importing context
 import UserContext from './contexts/UserContext';
+import Header from './pages/Charcuterie_Boards/Header';
+import Basket from './pages/Charcuterie_Boards/Basket';
+import Main from './pages/Charcuterie_Boards/Main';
+import Styles from './pages/Charcuterie_Boards/Styles.css'
 
 //importing pages
 import Home from './pages/Home'
@@ -12,7 +17,7 @@ import Charcuterie_Boards from './pages/Charcuterie_Boards'
 import Login from './pages/Login';
 // CSS
 import './App.css';
-import Header from './pages/Charcuterie_Boards/Header';
+
  
  
 function App() {
