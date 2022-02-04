@@ -4,10 +4,16 @@ import Header from './Header';
 import Main from './Main';
 import data from '../../components/data';
 import Product from '../../components/Product';
+import { useState } from 'react/cjs/react.development';
+// import { useState } from 'react';
 
 const Charcuterie_Boards = () => {
     const {products} = data;
     console.log({products})
+
+    const [cartItems, setCartItems] = useState('')
+ 
+
      
     return (
        

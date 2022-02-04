@@ -1,11 +1,12 @@
  import React from 'react';
+ import "../pages/Charcuterie_Boards/Styles.css"
  
  export default function Product (props)  {
      const {product} = props;
 
  
      console.log("this is inside products.js")
-     
+
      return (
          <div>
              

@@ -1,9 +1,11 @@
+
+
 const data = {
     products:[
         { id:'one',
         name: "Board1",
         price: "50",
-        image:'https://www.number-2-pencil.com/4th-of-july-charcuterie-board/'
+        image:'https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?w=800&ssl=1'
         },
         
         { id:'02',

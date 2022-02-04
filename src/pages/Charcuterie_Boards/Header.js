@@ -3,7 +3,7 @@ import "./Styles.css"
 
 const Header = () => {
     return (
-        <header className="row block center">
+        <header className="  row block center ">
             <div >
                 <a href="#">
                     <h1>Shopping Cart</h1>
