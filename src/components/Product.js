@@ -2,7 +2,7 @@
  import "../pages/Charcuterie_Boards/Styles.css"
  
  export default function Product (props)  {
-     const {product} = props;
+     const {product, onAdd} = props;
 
  
      console.log("this is inside products.js")
@@ -14,7 +14,7 @@
             <h3>{product.name}</h3>
             <div>${product.price}</div>
             <div>
-                <button>Add to Cart</button>
+                <button onClick={onAdd}>Add to Cart</button>
             </div>
          </div>
      )
