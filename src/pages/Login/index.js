@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 // import React from 'react';
  
-//  import './styles.CSS'
+ import "../Login/index.js"
+//  <link rel ="stylesheet" href="src/pages/Login/styles.CSS"></link>
 
 const Login = ({ setUser }) => {
 // creating state for logging in and rendering the nav bar

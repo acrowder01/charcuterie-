@@ -56,15 +56,19 @@ body {
   }
   button.add {
     background-color: #40c0f0;
-    width: 1.5rem;
+    width: 1.8rem;
   }
   button.remove {
     background-color: #f04040;
-    width: 1.5rem;
+    width: 1.8rem;
   }
   button.badge {
     background-color: #f04040;
     border: none;
     color: #ffffff;
     width: 1.5rem;
+  }
+
+  .test{
+    background-color:lightseagreen;
   }

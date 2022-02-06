@@ -1,5 +1,16 @@
-#login-form {
+
+
+#login-test {
     width: 40%;
-    background-color: red;
+    background-color: lightgrey;
+  
     
+}
+
+body{
+    background-color:magenta;
+}
+
+.login-form{
+    background-color: magenta;
 }
