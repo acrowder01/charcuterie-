@@ -1,5 +1,5 @@
  body{
-     background-color: lightskyblue;
+     background-color: white;
      font-family: sans-serif;
      display: flex;
      flex-direction: column;
@@ -8,11 +8,12 @@
      height: auto;
      /* overflow: hidden; */
      /* padding: 20px; */
+     /* font-weight: bold; */
  }
 
  .container{
    
-     background-color: white;
+     background-color: li;
      border-radius: 20px;
      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
      padding: 80px 80px;

@@ -1,6 +1,7 @@
 import { hasSelectionSupport } from '@testing-library/user-event/dist/utils';
 import React from 'react';
-import './styles.css'
+import "./styles.css"
+import "./Jokes"
 
 const FunStuff = () => {
     return (
@@ -11,6 +12,8 @@ const FunStuff = () => {
            <div id="jokes" className='jokes'></div>
            <button id="jokeBtn" className= "btn">Jokes</button>
  </div>
+
+ 
 
     )
 }
