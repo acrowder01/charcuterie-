@@ -1,13 +1,12 @@
 Charcuterie Board - JavaScript
 
-This is a very basic version of the popular old school game "Ping Pong". Online version can be found at acecharcuterie.netlify.app Code base can be be found at: https://github.com/acrowder01/charcuterie-
+This website is for informational purposes only and created to give exposure to the wold of Charcuterie Boards.   It site was designed for  a class project to create a site using React with props
+
+ Online version can be found at acecharcuterie.netlify.app Code base can be be found at: https://github.com/acrowder01/charcuterie-
 
 TECHNOLOGIES USED: JavaScript Html CSS Canvas
 
-This website is for informational purposes only and created to give exposure to the wold of Charcuterie Boards.   It site was designed for  a class project to create a site using React with props.   
-
-
-
+ 
 FEATURES: A log in button for secure logins to be able to access the Products cart and place orders. 
 
 UPCOMING FEATURES: Create a For Fun tabs and have the joke of the day. 

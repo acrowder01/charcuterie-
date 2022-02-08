@@ -10,7 +10,7 @@ const FunStuff = () => {
         
        <div className='container1'>
            
-           <h1 id="jokeid">Jokes - make me laugh</h1>
+           <h1 id="jokeid"> !!! Ha Ha Ha !!!!</h1>
            <div id="jokee" className='jokee'></div>
            <button id="jokeBtn" className= "btn" >Jokes</button>
  </div>
