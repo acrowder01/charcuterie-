@@ -18,12 +18,12 @@ const Basket = (props) => {
     return (
 
         <aside className="block col-1">
-            <h2>(basket)Cart Items</h2>
+            <h2>Basket</h2>
 
 
             {
                 cartItems.length === 0
-                && <div>Cart is empty</div>
+                && <div>Basket is empty</div>
                 //   : <div>Cart is full</div> 
             }
 

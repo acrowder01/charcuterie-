@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: green;
+    background-color: lightcoral;
+    
   }
 
   h1,
@@ -24,8 +25,8 @@ body {
   .row {
     display: flex;
      justify-content: space-between;
-    background-color: green;
-    font-weight: bold;
+    background-color: lightcoral;
+    font-weight:bolder;
     max-height: fit-content;
   }
 
@@ -44,7 +45,7 @@ body {
     flex: 2;
   }
   .block {
-    background-color: #e0e0e0;
+    background-color: lightcoral;
     padding: 1rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
@@ -62,7 +63,7 @@ body {
     margin: 0.1rem;
     border-radius: 0.5rem;
     border: 0.1rem #404040 solid;
-    background-color: #f0c040;
+    background-color: lightgreen;
     width: 20%;
     cursor: pointer;
   }

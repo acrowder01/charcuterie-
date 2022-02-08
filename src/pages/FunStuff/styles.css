@@ -1,5 +1,5 @@
  body{
-     background-color: white;
+     background-color: lightcoral;
      font-family: sans-serif;
      display: flex;
      flex-direction: column;
@@ -21,6 +21,7 @@
      max-width: 50%;
      max-height: 10%;
      height : 200px; 
+     
 
  }
 
@@ -28,7 +29,7 @@
 
 .joke{
     display: flex;
-    background-color: white;
+    background-color: lightcoral;
     align-content: center;
     justify-content: center;
     font-size: 1.5rem;

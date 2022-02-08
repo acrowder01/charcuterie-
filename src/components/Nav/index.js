@@ -53,7 +53,7 @@ const Nav = () => {
           </a>
           <ul  className="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a  className="dropdown-item" href="FunStuff">Jokes</a></li>
-            <li><a  className="dropdown-item" href="#">News</a></li>
+            <li><a  className="dropdown-item" href="JokesList">JokesList</a></li>
             
           </ul>
          
