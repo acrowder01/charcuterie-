@@ -32,29 +32,31 @@ function App() {
 //passing the user  to all of Apps  children through the Provider prop
 const [user, setUser] = useState('')
 
-const joke = document.getElementById("jokes");
-const jokeBtn = document.getElementById("jokeBtn");
+
+// const jokeText = document.getElementById("joke");
+// const jokeBtn = document.getElementById("jokeBtn");
 // jokeBtn.addEventListener("click", generateJokes);
-// joke.addEventListener (onclick, generateJokes)
-generateJokes();
+// // joke.addEventListener (onclick, generateJokes)
+// generateJokes();
 
-async function generateJokes(){
-  const res = await fetch(
-           "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
-            )
-     const data = await res.json();
-    console.log(data)
-    console.log(data.joke)
-    let joke =""
-    if(data.joke == undefined) {
-      joke = `${data.setup} <br /> ${data.delivery}`
-    } else {
-      joke = data.joke
+// async function generateJokes(){
+//   const res = await fetch(
+//            "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit"
+//             )
+//      const data = await res.json();
+//     console.log(data)
+//     console.log(data.joke)
+//     let joke =""
+//     if(data.joke == undefined) {
+//       joke = `${data.setup} <br /> ${data.delivery}`
+//     } else {
+//       joke = data.joke
 
-    }
+//     }
 
 
-}
+// }
+
 
 
 

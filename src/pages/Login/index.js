@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
  
  import "../Login/index.js"
 //  <link rel ="stylesheet" href="src/pages/Login/styles.CSS"></link>
+import "../Login/styles.CSS"
 
 const Login = ({ setUser }) => {
 // creating state for logging in and rendering the nav bar
@@ -47,7 +48,7 @@ const Login = ({ setUser }) => {
                  onChange={handleChange}
                  />
 
-                <div id="UserHelp" className="form-text">We'll never share your username with anyone else.</div>
+                <div id="UserHelp" className="form-text">Passwords are case sensitive</div>
             </div>
             <div className="mb-3">
                 <label htmlFor="exampleInputPassword1" className="form-label">Password</label>

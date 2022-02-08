@@ -14,9 +14,11 @@ const Home = () => {
            <br>
             </br>
              
-            </div>
+             
 
  <br></br>
+
+ </div>
  <div id="mainBody">            
  <h2>What Is Charcuterie?</h2> <br></br>
   

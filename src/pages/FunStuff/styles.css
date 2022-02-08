@@ -25,9 +25,10 @@
  }
 
 
-.jokes{
+
+.joke{
     display: flex;
-    background-color: lightgreen;
+    background-color: white;
     align-content: center;
     justify-content: center;
     font-size: 1.5rem;

@@ -1,12 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: ;
+    background-color: green;
   }
+
   h1,
   h2,
   h3 {
     margin: 0.5rem 0;
   }
+
   h1 {
     font-size: 1.5rem;
   }
@@ -21,10 +23,16 @@ body {
   }
   .row {
     display: flex;
-    justify-content: space-between;
-    background-color: white;
+     justify-content: space-between;
+    background-color: green;
     font-weight: bold;
+    max-height: fit-content;
   }
+
+#cart1{
+  background-color: #f04040;
+}
+
   .row.center {
     align-items: center;
      
@@ -40,6 +48,7 @@ body {
     padding: 1rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
+    
   }
   .text-right {
     text-align: right;
@@ -54,15 +63,15 @@ body {
     border-radius: 0.5rem;
     border: 0.1rem #404040 solid;
     background-color: #f0c040;
-    width: 50%;
+    width: 20%;
     cursor: pointer;
   }
   button.add {
-    background-color: #40c0f0;
+    background-color: greenyellow;
     width: 1.8rem;
   }
   button.remove {
-    background-color: #f04040;
+    background-color: red;
     width: 1.8rem;
   }
   button.badge {
@@ -74,6 +83,14 @@ body {
 
   .test{
     background-color:lightseagreen;
+    display: ;
+  }
+
+
+  .productsMain{
+   display:flex;
+   flex-wrap: wrap;
+  
   }
 
   /* .carousel {
