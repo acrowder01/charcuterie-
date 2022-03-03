@@ -55,7 +55,7 @@ const Nav = () => {
             BoardList
           </a>
           <ul  className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a  className="dropdown-item" href="BoardList">Jokes</a></li>
+            {/* <li><a  className="dropdown-item" href="BoardList">Jokes</a></li> */}
             <li><a  className="dropdown-item" href="BoardList">BoardList</a></li>
             
           </ul>
