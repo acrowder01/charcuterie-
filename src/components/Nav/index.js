@@ -22,9 +22,7 @@ const Nav = () => {
             <li className="nav-item">
               <Link className="nav-link" to="Charcuterie_Boards">Charcuterie Boards</Link>
             </li>
-<li className="nav-item">
-                  <Link className="nav-link" to="favorites">Board List</Link>
-                </li>
+            
  
 
             {
@@ -54,11 +52,11 @@ const Nav = () => {
           
           <li  className="nav-item dropdown">
           <a  className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Fun Stuff
+            BoardList
           </a>
           <ul  className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a  className="dropdown-item" href="FunStuff">Jokes</a></li>
-            <li><a  className="dropdown-item" href="JokesList">JokesList</a></li>
+            <li><a  className="dropdown-item" href="BoardList">Jokes</a></li>
+            <li><a  className="dropdown-item" href="BoardList">BoardList</a></li>
             
           </ul>
          

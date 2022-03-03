@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useContext, useEffect } from 'react';
 
-const JokesList = () => {
+const BoardList = () => {
     return (
         <div>
             hello ace jokes list
@@ -9,4 +9,4 @@ const JokesList = () => {
     );
 }
 
-export default JokesList;
+export default BoardList;

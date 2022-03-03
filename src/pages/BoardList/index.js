@@ -5,12 +5,13 @@ import "./Jokes"
 
 
 
-const FunStuff = () => {
+
+const BoardList = () => {
     return (
         
        <div className='container1'>
            
-           <h1 id="jokeid"> !!! Ha Ha Ha !!!!</h1>
+           <h1 id="jokeid"> !!! Hadfdf Ha Ha !!!!</h1>
            <div id="jokee" className='jokee'></div>
            <button id="jokeBtn" className= "btn" >Jokes</button>
  </div>
@@ -19,4 +20,4 @@ const FunStuff = () => {
 
     )
 }
-export default FunStuff;
+export default BoardList;

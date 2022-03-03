@@ -12,10 +12,12 @@ import Main from './pages/Charcuterie_Boards/Main';
 import Styles from './pages/Charcuterie_Boards/Styles.css'
 
 //importing pages
-import FunStuff from './pages/FunStuff';
+import BoardList from './pages/BoardList';
 import Home from './pages/Home'
 import Charcuterie_Boards from './pages/Charcuterie_Boards'
+ 
 import Login from './pages/Login';
+ 
 import Product
  from './components/Product';
 
@@ -74,8 +76,9 @@ const [user, setUser] = useState('')
         <Route path = 'login' element={<Login setUser={setUser} />} />
         <Route path = 'Home' element={<Home />} />
         <Route path = 'Charcuterie_Boards' element={<Charcuterie_Boards />} />
-        <Route path = 'FunStuff' element={<FunStuff />} />
-        {/* <Route path = 'Board List' element={<Board List />} /> */}
+        
+        <Route path = 'BoardList' element={<BoardList />} /> 
+         
         
       </Routes>
 
