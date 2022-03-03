@@ -22,6 +22,11 @@ const Nav = () => {
             <li className="nav-item">
               <Link className="nav-link" to="Charcuterie_Boards">Charcuterie Boards</Link>
             </li>
+<li className="nav-item">
+                  <Link className="nav-link" to="favorites">Board List</Link>
+                </li>
+ 
+
             {
               user
                 ?
@@ -33,7 +38,7 @@ const Nav = () => {
                   <Link className="nav-link" to="favorites">Favorites</Link>
                 </li>
             }
-
+  
 
 
             {/* <li className="nav-item">

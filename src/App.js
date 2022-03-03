@@ -75,6 +75,8 @@ const [user, setUser] = useState('')
         <Route path = 'Home' element={<Home />} />
         <Route path = 'Charcuterie_Boards' element={<Charcuterie_Boards />} />
         <Route path = 'FunStuff' element={<FunStuff />} />
+        {/* <Route path = 'Board List' element={<Board List />} /> */}
+        
       </Routes>
 
       
