@@ -46,40 +46,29 @@ return(
       <th scope="col">Description</th>
       <th scope="col">Price</th>
     </tr>
-
-  </thead>
+</thead>
   <tbody>
-    <tr>
-        
-       <td>Mark</td>
-       <td>Otto</td>
-       <td>@mdo</td>
-    </tr>
-    <tr>
-       {/* <th scope="row">2</th> */}
-       <td>Jacob</td>
-       <td>Thornton</td>
-       <td>@fat</td>
-    </tr>
-    <tr>
-      {/* <th scope="row">3</th> */}
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      {/* <th scope="row">4</th> */}
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    
+
+      {
+          allboards.map(boards => {
+              return (
+            <tr key={boards.id}>
+                <td>{boards.boardtype}</td>
+                <td>{boards.description}</td>
+                <td>{boards.price}</td>
+                
+             </tr>
+                   
+              )
+          })
+
+      }
+
+      
   </tbody>
 </table>
-     
-
-    
-)
+        
+);
 }
 export default allboards;
 
