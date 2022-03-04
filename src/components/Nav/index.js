@@ -6,7 +6,7 @@ import UserContext from '../../contexts/UserContext'
 
 const Nav = () => {
   const user = useContext(UserContext)
-  console.log('nav', user)
+  // console.log('nav', user)
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light" >
       <div className="container-fluid">

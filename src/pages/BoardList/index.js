@@ -10,22 +10,30 @@ import Form from '../../components/Form';
 
  
 
-function BoardList(){
+const allboards = () => {
+
+    const [ allboards, setallboards ] = useState([])
+
+
     useEffect(() => {
         fetchboards()
     }, [])
 
     const fetchboards = async () => {
+
         try {
             const response = await axios.get('http://localhost:8080/api/v1/allboards')
              
             console.log(response)
+            setallboards(response.data)
+
+
            } catch (err) {
-            console.log(error)
+            console.log(err)
         }
     }
 
-     
+     console.log("this is our state", allboards)
 
 return(
      
@@ -73,7 +81,7 @@ return(
     
 )
 }
-export default BoardList;
+export default allboards;
 
 
 
