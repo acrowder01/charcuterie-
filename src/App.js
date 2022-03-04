@@ -14,12 +14,11 @@ import Styles from './pages/Charcuterie_Boards/Styles.css'
 //importing pages
 import BoardList from './pages/BoardList';
 import Home from './pages/Home'
-import Charcuterie_Boards from './pages/Charcuterie_Boards'
+import Charcuterie_Boards from './pages/Charcuterie_Boards';
  
 import Login from './pages/Login';
  
-import Product
- from './components/Product';
+import Product from './components/Product';
 
 // CSS
 import './App.css';

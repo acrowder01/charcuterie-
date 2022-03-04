@@ -30,7 +30,10 @@ return(
      
     <div>
       hello ace
+
     </div>
+
+    
 )
 }
 export default BoardList;
