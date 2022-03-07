@@ -20,7 +20,8 @@ const Form = () => {
 
     return (
      <>
-     To Search for a board enter the info below
+     <br></br>
+               *****To Search for a board enter the info below*********
       <form className="row g-3 needs-validation" novalidate id="form-container">
       <div className="col-md-4">
         <label htmlFor="validationCustom01" className="form-label">Description</label>
