@@ -33,20 +33,11 @@ const allboards = () => {
 
      console.log("this is our state", allboards)
      
-     const addBoard = async (addboard) => {
-      try {
-         const response = await axios.post('http://localhost:8080/api/v1/addboard', addboard)
-         
-      
-       } catch (err) {
-        console.log(err)
-    }
-     }
-
+     
 return(
      
      <>
-       <Form />
+       <Form fetchboards = {fetchboards}/>
        
     <table className="table table-bordered ">
   <thead>

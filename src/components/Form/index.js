@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios'
 import './styles.css'
 
-const Form = () => {
+const Form = ({fetchboards}) => {
 
     const [description, setdescription] = useState('')
     const [boardtype, setboardtype] = useState('')
@@ -10,13 +10,21 @@ const Form = () => {
 
     // console.log(firstName, lastName)
 
-    const handleSubmit = async (e) => {
+    const handleSubmit =  async (e) => {
         e.preventDefault()
         const addboard = {
           boardtype: boardtype,
           description: description,
-          price:price
+          price: price
             }
+
+            try {
+              const response = await axios.post('http://localhost:8080/api/v1/addboard', addboard)
+              
+              fetchboards()
+           } catch (err) {
+             console.log(err)
+         }
         
   }
 
@@ -25,6 +33,7 @@ const Form = () => {
      <>
      <br></br>
                *****To Search for a board enter the info below*********
+
       <form className="row g-3 needs-validation" noValidate id="form-container" onSubmit={handleSubmit} >
       <div className="col-md-4">
         <label htmlFor="validationCustom02" className="form-label">Board Type</label>
