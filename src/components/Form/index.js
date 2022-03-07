@@ -19,33 +19,36 @@ const Form = () => {
     }
 
     return (
-        <div className="ui centered grid">
-            <form className="ui form" id="form-container" onSubmit={handleSubmit}>
-                <div className="field">
-                    <label className='ui left aligned container'>board type</label>
-                    <input
-                        type="text"
-                        name="board type "
-                        placeholder="boadtype"
-                        onChange={e => setboardtype(e.target.value)}
-                    />
-                </div>
-                <div className="field">
-                    <label className='ui left aligned container'>description</label>
-                    <input
-                        type="text"
-                        name="description"
-                        placeholder="description"
-                        onChange={e => setdescription(e.target.value)}
-                    />
-                </div>
-                <div className="ui right aligned container">
-
-                    <button className="ui button" type="submit">Submit</button>
-                </div>
-            </form>
+     <>
+     To Search for a board enter the info below
+      <form className="row g-3 needs-validation" novalidate id="form-container">
+      <div className="col-md-4">
+        <label htmlFor="validationCustom01" className="form-label">Description</label>
+        <input type="text" className="form-control" id="validationCustom01" value="Board Description"  />
+       
+      </div>
+      <div className="col-md-4">
+        <label htmlFor="validationCustom02" className="form-label">Board Type</label>
+        <input type="text" className="form-control" id="validationCustom02" value="Enter Board Type here"  />
+         
+      </div>
+      <div className="col-md-4">
+        <label htmlFor="validationCustomUsername" className="form-label">Price</label>
+        <div className="input-group has-validation">
+           
+          <input type="text" className="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"    />
+          
         </div>
+      
+      </div>
+      
+      <div className="col-12">
+        <button className="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </form>
+    </>
     );
+     
 }
 
 export default Form;
