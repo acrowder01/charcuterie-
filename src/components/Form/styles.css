@@ -2,21 +2,27 @@
    
     width: 90%;
     margin: 2%;
+    margin-bottom: 3%;
      border-style: solid;
    text-align: center;
-    background-color: yellowgreen;
+ background-color:darkgray;
     text-transform: uppercase;
-     
-    padding-left: 5em;
+      padding-left: 5em;
     padding: 2em;
+
      
-    /* text-justify: newspaper; */
+   
+    
+
+
+
+    /* padding-block-end: 4%; */
+     /* text-justify: newspaper; */
    
     /* display:grid; */
     /* display:flex; */
     /* border-radius: %; */
      
-    
 
      
 }
