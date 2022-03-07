@@ -68,7 +68,8 @@ const Home = () => {
   <div className ="row">
     <div className ="col">
     The  Breakfast Charcuterie Board! Easy, versatile – ideal for breakfast or brunch – assembles in minutes. Shake things up this holiday season with a breakfast charcuterie board for stress free holiday mornings and entertaining.
-     <img src="https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?w=800&ssl=1"   height="300" width="400" className ="d-block w-100" alt="breakfast"/>
+    
+     <img src="https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?w=800&ssl=1"   height="340" width="400" className ="d-block w-100" alt="breakfast"/>
 
     </div>
 
@@ -99,6 +100,7 @@ const Home = () => {
       <img src= "https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,w_941,f_auto,q_70/v1615508869/recipes/604ab58333bbd_h5.jpg" width="70%" height="400px" class="d-block w-100" alt="date night"/>
     </div>
 
+    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

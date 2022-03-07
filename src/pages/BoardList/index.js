@@ -3,10 +3,8 @@ import React from 'react';
 import "./styles.css";
 import "./Jokes";
 import axios from 'axios'
-
 import { useEffect, useState } from 'react'
- 
-import Form from '../../components/Form';
+ import Form from '../../components/Form';
 
  
 
@@ -14,7 +12,7 @@ const allboards = () => {
 
     const [ allboards, setallboards ] = useState([])
 
-
+ 
     useEffect(() => {
         fetchboards()
     }, [])
@@ -37,7 +35,9 @@ const allboards = () => {
 
 return(
      
-     
+     <>
+       <Form />
+       
     <table className="table table-bordered ">
   <thead>
     <tr>
@@ -64,9 +64,9 @@ return(
 
       }
 
-      
-  </tbody>
+       </tbody>
 </table>
+</>
         
 );
 }
