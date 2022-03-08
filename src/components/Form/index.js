@@ -93,7 +93,7 @@ const Form = ( {fetchboards, editForm, boardToEdit}) => {
       
       <div className="col-12">
         <button className="btn btn-primary" type="submit">
-        {editForm ? "Edit" : "submit"}
+             {editForm ? "Edit" : "Submit"}
         </button>
       </div>
     </form>
