@@ -23,7 +23,7 @@ const Form = ( {fetchboards, editForm, boardToEdit}) => {
                if(editForm){
         // EDITform is true then we will be updating. 
         
-        const response = await axios.post(`http://localhost:8080/api/v1/addboard/${id}`, addboard)
+        const response = await axios.put(`http://localhost:8080/api/v1/boardtype/${boardToEdit.id}`, addboard)
         } else {
           //Adding Student
        const response = await axios.post('http://localhost:8080/api/v1/addboard', addboard)
@@ -49,7 +49,7 @@ const Form = ( {fetchboards, editForm, boardToEdit}) => {
     return (
      <>
      <br></br>
-               *****To Search for a board enter the info below*********
+      
 
       <form className="row g-3 needs-validation" noValidate id="form-container" onSubmit={handleSubmit} >
       <div className="col-md-4">
