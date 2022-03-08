@@ -21,11 +21,25 @@ const Form = ({fetchboards}) => {
             try {
               const response = await axios.post('http://localhost:8080/api/v1/addboard', addboard)
               
+              if(response.status === 200) {
+                setboardtype('')
+                setdescription('')
+                setprice('')
+            } 
+
               fetchboards()
            } catch (err) {
              console.log(err)
          }
         
+        // const  DeletBoard  = async (id) => {
+        //   try {
+        //     const response = await axios.delete(`http://localhost:8080/api/v1/boardtype/${id}`)
+             
+        //   } catch (err) {
+        //     console.log(err)
+        //        }
+        // }
   }
 
 
