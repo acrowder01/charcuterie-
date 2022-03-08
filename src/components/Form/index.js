@@ -2,7 +2,8 @@ import { useState } from 'react';
 import axios from 'axios'
 import './styles.css'
 
-const Form = ({fetchboards}) => {
+const Form = ( {fetchboards, editForm, boardToEdit}) => {
+  // console.log('board to edit', boardToEdit )
 
     const [description, setdescription] = useState('')
     const [boardtype, setboardtype] = useState('')
@@ -19,27 +20,29 @@ const Form = ({fetchboards}) => {
             }
 
             try {
-              const response = await axios.post('http://localhost:8080/api/v1/addboard', addboard)
-              
-              if(response.status === 200) {
-                setboardtype('')
-                setdescription('')
-                setprice('')
-            } 
+               if(editForm){
+        // EDITform is true then we will be updating. 
+        
+        const response = await axios.post(`http://localhost:8080/api/v1/addboard/${id}`, addboard)
+        } else {
+          //Adding Student
+       const response = await axios.post('http://localhost:8080/api/v1/addboard', addboard)
+
+       if(response.status === 200) {
+        setboardtype('')
+        setdescription('')
+        setprice('')
+      
+      }
+     } 
+
 
               fetchboards()
            } catch (err) {
              console.log(err)
          }
         
-        // const  DeletBoard  = async (id) => {
-        //   try {
-        //     const response = await axios.delete(`http://localhost:8080/api/v1/boardtype/${id}`)
-             
-        //   } catch (err) {
-        //     console.log(err)
-        //        }
-        // }
+        
   }
 
 
@@ -54,6 +57,7 @@ const Form = ({fetchboards}) => {
         <input type="text" 
         className="form-control" 
         id="validationCustom02" 
+        placeholder={boardToEdit.boardtype}
         value={boardtype}  
         onChange={e => setboardtype(e.target.value)}/>
 
@@ -65,6 +69,7 @@ const Form = ({fetchboards}) => {
         <input type="text"
          className="form-control" 
          id="validationCustom01" 
+         placeholder={boardToEdit.description}
          value= {description} 
          onChange={e => setdescription(e.target.value)}
          />
@@ -77,6 +82,7 @@ const Form = ({fetchboards}) => {
         <input type="number" 
         className="form-control" 
         id="validationCustom02" 
+        placeholder={boardToEdit.price}
         value={price}  
         onChange={e => setprice(e.target.value)}/>
 
@@ -86,7 +92,9 @@ const Form = ({fetchboards}) => {
       
       
       <div className="col-12">
-        <button className="btn btn-primary" type="submit">Submit form</button>
+        <button className="btn btn-primary" type="submit">
+        {editForm ? "Edit" : "submit"}
+        </button>
       </div>
     </form>
     </>
