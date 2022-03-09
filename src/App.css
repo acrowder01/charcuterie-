@@ -1,11 +1,16 @@
 #login-form {
     width: 40%;
     background-color: lightgreen;
+    /* text-align: center; */
+     
+     
+     
   
     
 }
 body{
-    background-color: lightgray
+    background-color: lightslategray;
+   
 }
 #home{
     background-color: ;
