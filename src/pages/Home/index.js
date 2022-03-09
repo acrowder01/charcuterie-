@@ -47,11 +47,13 @@ Fresh fruit and berries: grapes, apples, pears, oranges, raspberries, blueberrie
 Dried fruit: apricots, cherries, figs, pineapple, mango
 Sweet spreads: Fig butter (Trader Joes brand is on every board I make!), orange marmalade, blackberry jam or other sweet spreads.
 Chocolate: a few pieces of quality dark chocolate or chocolate covered nuts.
-Crackers: choose a variety of crackers, (or even sliced baguette or mini toasts) of different shapes, sizes and flavors. Some of my personal favorites include thin croccantini crackers, pita crackers, and Trader Joes raisin rosemary crisps.</li>
+Crackers: choose a variety of crackers, (or even sliced baguette or mini toasts) of different shapes, sizes and flavors. Some of my personal favorites include thin croccantini crackers, pita crackers, and Trader Joes raisin rosemary crisps.</li> <br></br>
+<li>Sweet accompaniments:
+Fresh fruit and berries: grapes, apples, pears, oranges, raspberries, blueberries, blackberries, strawberries.
+Dried fruit: apricots, cherries, figs, pineapple, mango
+Sweet spreads: Fig butter (Trader Joes brand is on every board I make!), orange marmalade, blackberry jam or other sweet spreads.
+Chocolate: a few pieces of quality dark chocolate or chocolate covered nuts.</li>
 </ul>
-  
- 
-
 </p>
  
 <br></br><br></br>
@@ -60,9 +62,9 @@ Crackers: choose a variety of crackers, (or even sliced baguette or mini toasts)
   No matter the occassion there is a themed board just for you.
   <br></br><br></br>
    
-  <ul class="pagination pagination-sm" id="pagination">
+  <ul class="pagination pagination-lg" id="pagination">
    <li class="page-item active" aria-current="page">
-        <span id ="pagination" class="page-link">Popular Boards---></span>
+        <span id ="pagination" class="page-link">Popular Boards ----></span>
     </li>
     <li class="page-item"><a class="page-link" href="https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?">breakfast</a></li>
     <li class="page-item"><a class="page-link" href="https://www.number-2-pencil.com/wp-content/uploads/2021/06/4th-of-July-Charcuterie-Board-1-1.jpg">4th of July</a></li>
@@ -80,6 +82,19 @@ Crackers: choose a variety of crackers, (or even sliced baguette or mini toasts)
 {/* <img src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/10/charcuterie-0420w.jpg" width="70%" height="500px" alt="testtest"/> */}
 <br></br><br></br>
 <img src="https://picky-palate.com/wp-content/uploads/2018/12/IMG_5851.jpg" width="60%" height="500px" class="responsive"/>
+<br></br><br></br>
+
+<p>Charcuterie Board ideas
+  <ul>
+<li>Fall Charcuterie: Include small pumpkins to decorate your board, use seasonal vegetables like pears, and fall themed dips like whipped caramel apple dip or fall desserts like thinly sliced pumpkin bread or mini healthy pumpkin muffins!</li>
+<li>Christmas Charcuterie: shape your meats, cheese, and crackers into the shape of a Christmas tree or include a few small Christmas treats like Chocolate Truffles or Christmas Cornflake Wreaths!  Scattered cranberries around your board add a nice a seasonal touch.</li>
+<li>Dessert Charcuterie: Make chocolate dipping sauce and surround it by strawberries, bananas, apples, pretzels, marshmallows, graham cracker sticks, mini cookies, etc.</li>
+<li>Valentine’s Charcuterie: Shape your meats, cheese, and crackers into a giant heart and include chocolate covered strawberries, conversation hearts, and cinnamon gummy bears.</li>
+<li>For a Kids party: Lay a large piece of butcher paper on your counter and fill it with piles of kid friendly food including fruit, veggies, dips, chips, donuts, mini sandwiches, popcorn, cheese, crackers, juice boxes, etc.</li>
+</ul>
+
+  
+   </p>
   
  
  </div>
