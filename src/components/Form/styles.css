@@ -1,28 +1,39 @@
+#mylabel{
+  text-align: center;
+  background-color: green;
+}
+
 #form-container {
+  
    
     width: 90%;
     margin: 2%;
     margin-bottom: 3%;
      border-style: solid;
+     border-color: red;
    text-align: center;
  background-color:darkgray;
     text-transform: uppercase;
       padding-left: 5em;
+       
     padding: 2em;
-
      
-   
-    
+}
 
+#ace{
+  
+text-transform: uppercase;
+text-align: center;
+font-weight: bold;
+color: red;
 
+}
 
-    /* padding-block-end: 4%; */
-     /* text-justify: newspaper; */
-   
-    /* display:grid; */
-    /* display:flex; */
-    /* border-radius: %; */
-     
+.blinking {
+  animation: mymove 2s infinite alternate;
+}
 
-     
+@keyframes mymove {
+  from {opacity:0;}
+  to {opacity: 1;}
 }

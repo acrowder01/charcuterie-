@@ -22,13 +22,38 @@ const Home = () => {
 
  </div>
  <div id="mainBody">            
- <h2>What Is Charcuterie?</h2> <br></br>
+ <h2>What Is Charcuterie (pronounced [shar-koo-tuh–ree)?   </h2> <br></br>
   
   
  Charcuterie is a display of cured meats. It has gained popularity in recent times and now includes meats, cheeses, and accompaniments that pair well with meats and cheeses such as fruit, olives, nuts, spreads, etc). When people think of charcuterie boards, they are essentially referring to a cheese board.
  <br></br> <br></br>
 
  Everyone loves a good charcuterie board... and really... what's not to love!? Between the meat and the cheese and the fruit and the nuts, there's guaranteed to be something on there for everyone. Which means no more stressing over the perfect appetizer! (This is it!)
+<br></br><br></br>
+<p>
+  The most important elements of a charcuterie board are meats, cheeses, savory accompaniments, sweet accompaniments, and crackers.<br></br><br></br>
+<ul>
+  <li> Cheeses: choose a variety of hard and soft cheese, and cheese made from different animals (cow, sheep, goat). Expert tip: always choose at least one cheese that is familiar to your guests so they feel comfortable diving right in.
+Hard cheeses: manchego, cheddar (white or orange), swiss, gouda, gruyere, parmesan etc.
+Soft cheeses: brie, triple cream, goat cheese, havarti, burrata, cream cheese with pepper jelly on top (our favorite!). Could also you blue cheese or gorgonzola.</li>
+  <li>Meats: prosciutto, salami, ham, cured chorizo, capricola, soppressata, summer sausage, etc.
+Savory accompaniments:
+Nuts: almonds (marcona almonds from Trader Joes are my favorite!), candied pecans, pistachio nuts, cashews, macadamia nuts, etc.
+Briny, pickled or marinated: olives, cocktail onions, cornichons, dill pickles, pepperoncini. We love green olives stuffed with garlic or feta, and I also like including olive tapenade and bruschetta. <br></br></li>
+  <li>Savory Dips and spreads: Whole ground mustard, hummus, ranch, balsamic dip.
+Veggies – cold cut, if desired
+Sweet accompaniments:
+Fresh fruit and berries: grapes, apples, pears, oranges, raspberries, blueberries, blackberries, strawberries.
+Dried fruit: apricots, cherries, figs, pineapple, mango
+Sweet spreads: Fig butter (Trader Joes brand is on every board I make!), orange marmalade, blackberry jam or other sweet spreads.
+Chocolate: a few pieces of quality dark chocolate or chocolate covered nuts.
+Crackers: choose a variety of crackers, (or even sliced baguette or mini toasts) of different shapes, sizes and flavors. Some of my personal favorites include thin croccantini crackers, pita crackers, and Trader Joes raisin rosemary crisps.</li>
+</ul>
+  
+ 
+
+</p>
+ 
 <br></br><br></br>
  
  <nav aria-label="...">
@@ -37,7 +62,7 @@ const Home = () => {
    
   <ul class="pagination pagination-sm" id="pagination">
    <li class="page-item active" aria-current="page">
-        <span id ="pagination" class="page-link">Check it out---></span>
+        <span id ="pagination" class="page-link">Popular Boards---></span>
     </li>
     <li class="page-item"><a class="page-link" href="https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?">breakfast</a></li>
     <li class="page-item"><a class="page-link" href="https://www.number-2-pencil.com/wp-content/uploads/2021/06/4th-of-July-Charcuterie-Board-1-1.jpg">4th of July</a></li>
@@ -54,7 +79,7 @@ const Home = () => {
  
 {/* <img src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/10/charcuterie-0420w.jpg" width="70%" height="500px" alt="testtest"/> */}
 <br></br><br></br>
-<img src="https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/X2xwZAg5oEOmJFwUa7nDkrtqeLI=/1660x934/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/D7JCVIMCSNESTJCQPUS65T34Z4.jpg" width="80%" height="500px" />
+<img src="https://picky-palate.com/wp-content/uploads/2018/12/IMG_5851.jpg" width="60%" height="500px" class="responsive"/>
   
  
  </div>

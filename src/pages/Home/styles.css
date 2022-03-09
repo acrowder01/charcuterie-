@@ -1,26 +1,27 @@
 #home{
-    background-color: lightcoral;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
 
 #home1{
     display: flex;
-    background-color: lightcoral;
+    background-color: white;
     justify-content: center;
     
 }
 
 #mainBody{
     font-weight: bold;
-    background-color: lightcoral;
+    background-color: white;
+     font-size:larger
      
 }
 
 .container1{
     display: flex;
     flex-direction: column;
-     background-color: lightcoral;
+     background-color: white;
      font-family:sans-serif;
      font-weight:bold;
      /* height:auto; */
@@ -29,8 +30,12 @@
      /* background-image: "https://www.lemontreedwelling.com/wp-content/uploads/2020/11/charcuterie-board-2.jpg" */
 }
 .containerHome{
-    background-color: lightcoral;
+    background-color: white;
 font-weight: bold;
  
 }
+.responsive {
+    max-width: 100%;
+  height: auto;
+  }
 
