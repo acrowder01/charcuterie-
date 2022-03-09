@@ -9,8 +9,6 @@ const Form = ( {fetchboards, editForm, boardToEdit}) => {
     const [boardtype, setboardtype] = useState('')
     const [price, setprice] = useState('')
 
-    // console.log(firstName, lastName)
-
     const handleSubmit =  async (e) => {
         e.preventDefault()
         const addboard = {

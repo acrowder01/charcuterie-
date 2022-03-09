@@ -14,4 +14,7 @@ body{
 {background-color: lightpink;}
 
 
-   
+  #pagination{
+    justify-content: center;
+     
+  }

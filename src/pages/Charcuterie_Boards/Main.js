@@ -7,7 +7,7 @@ export default function Main(props) {
     const { products, onAdd } = props;
 
     return (
-      <main className="flex col-2">
+      <main className="flex col-2" id="main">
         <h2> Available Products</h2>
         <div className="  row">
           {products.map((product) => (

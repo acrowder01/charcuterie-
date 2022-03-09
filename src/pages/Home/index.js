@@ -11,7 +11,7 @@ const Home = () => {
         <div id="home1">
            <h1>Welome to Ace Charcuterie Boards</h1>
            {/* https://www.tasteofhome.com/article/how-to-make-a-charcuterie-board/ >*/}
-           {/* <img src="https://www.tasteofhome.com/wp-content/uploads/2021/11/Charcuterie-Board_TOHcom21_PU6005_E10_27_8b_v2-e1637338122101.jpg?w=1110 " height="10px" class="img-fluid" alt="Board"></img> */}
+           {/* <img src="https://www.tasteofhome.com/wp-content/uploads/2021/11/Charcuterie-Board_TOHcom21_PU6005_E10_27_8b_v2-e1637338122101.jpg?w=1110 " height="1px" class="img-fluid" alt="Board"></img> */}
 
            <br>
             </br>
@@ -35,13 +35,14 @@ const Home = () => {
   No matter the occassion there is a themed board just for you.
   <br></br><br></br>
    
-  <ul class="pagination pagination-sm">
+  <ul class="pagination pagination-sm" id="pagination">
    <li class="page-item active" aria-current="page">
-      <span class="page-link">Check it out--></span>
+        <span id ="pagination" class="page-link">Check it out---></span>
     </li>
     <li class="page-item"><a class="page-link" href="https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?">breakfast</a></li>
     <li class="page-item"><a class="page-link" href="https://www.number-2-pencil.com/wp-content/uploads/2021/06/4th-of-July-Charcuterie-Board-1-1.jpg">4th of July</a></li>
     <li class="page-item"><a class="page-link" href="https://www.favfamilyrecipes.com/wp-content/uploads/2020/02/Valentine-Charcuterie-Board-5-1.jpg">Candy</a></li>
+    <li class="page-item"><a class="page-link" href="https://apumpkinandaprincess.com/wp-content/uploads/2019/02/Valentines-Day-Charcuterie-Board.jpg">Valentines</a></li>
     
     <li class="page-item"><a class="page-link" href="https://www.letseatcake.com/wp-content/uploads/2021/08/halloween-charcuterie-boards-3.jpg">Halloween</a></li>
     <li class="page-item"><a class="page-link" href="https://www.tasteofhome.com/wp-content/uploads/2020/02/Birthday-board-TOHcom21_PU6005_G11_19_2b.jpg?resize=768,512">birthday</a></li>
@@ -88,16 +89,16 @@ const Home = () => {
 <div  id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/10/charcuterie-0420w.jpg" width="70%" height="400px" class="d-block w-100" alt="cheese"/>
+      <img src="https://i0.wp.com/www.asprinkleofjoy.com/wp-content/uploads/2020/02/IMG_1960-scaled.jpg?resize=1024%2C683&ssl=1" width="70%" height="400px" class="d-block w-100" alt="cheese"/>
     </div>
     <div class="carousel-item">
-      <img src="https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/X2xwZAg5oEOmJFwUa7nDkrtqeLI=/1660x934/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/D7JCVIMCSNESTJCQPUS65T34Z4.jpg" width="80%" height="400px" class="d-block w-100" alt="night time"/>
+      <img src=" https://mycharcuterie.com/wp-content/uploads/2021/03/Luau-Theme-Charcuterie-Board-04.jpg" width="80%" height="400px" class="d-block w-100" alt="night time"/>
     </div>
     <div class="carousel-item">
-    <img src="https://purewows3.imgix.net/images/articles/2021_09/charcuterie_recipe_ideas_spanish-tapas-board-recipe.jpeg" width="10%" height="400px" class="d-block w-100" alt="Spanish Tapa Board"/>
+    <img src="https://stepoutbuffalo.com/wp-content/uploads/2022/03/4.jpg" width="70%" height="400px" class="d-block w-100" alt="Spanish Tapa Board"/>
     </div>
     <div class="carousel-item">
-      <img src= "https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,w_941,f_auto,q_70/v1615508869/recipes/604ab58333bbd_h5.jpg" width="70%" height="400px" class="d-block w-100" alt="date night"/>
+      <img src= "https://cdn.shopify.com/s/files/1/0193/2886/0224/files/67485745_519831698558672_5866187558328729600_o_1024x1024.jpg?v=1565021637" width="70%" height="400px" class="d-block w-100" alt="date night"/>
     </div>
 
     
