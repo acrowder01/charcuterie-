@@ -104,41 +104,12 @@ Chocolate: a few pieces of quality dark chocolate or chocolate covered nuts.</li
 <li>Valentine’s Charcuterie: Shape your meats, cheese, and crackers into a giant heart and include chocolate covered strawberries, conversation hearts, and cinnamon gummy bears.</li>
 <li>For a Kids party: Lay a large piece of butcher paper on your counter and fill it with piles of kid friendly food including fruit, veggies, dips, chips, donuts, mini sandwiches, popcorn, cheese, crackers, juice boxes, etc.</li>
 </ul>
-
-  
-   
-  
- 
- </div>
-
+</div>
 </div>
 <br></br>
 <br></br>
-
-
-
-<div className ="containerHome" id="responsive">
-  <div className ="row">
-    <div className ="col img-fluid">
-    The  Breakfast Charcuterie Board! Easy, versatile – ideal for breakfast or brunch – assembles in minutes. Shake things up this holiday season with a breakfast charcuterie board for stress free holiday mornings and entertaining.
-    
-     <img src="https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?w=800&ssl=1"   height="400" width="400" className ="img-fluid " alt="breakfast"/>
-
-    </div>
-
-    <div className ="col   ">
-      <br></br>
-    Impress your guests with the ULTIMATE Charcuterie Board! Loaded with cured meats, cheeses, crackers, fruits, nuts, jams, and more, it's the perfect appetizer for holidays and parties and ideal for easy entertaining
-     <img src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/10/charcuterie-0420w.jpg" height="380" width="400" className ="   "  alt="breakfast"  />
-    </div>
-    <div className ="col img-fluid">
-    No matter if you're throwing a holiday party or just having a lazy night in, a Vegan Charcuterie Board (aka Vegan Snack Board) is an easy and fun appetizer or main course.
-      <img src="https://nosweatvegan.com/wp-content/uploads/2020/12/vegan-charcuterie-board-1.jpg" height="420 " width="400" className =" " alt="Vegan"/>
-    </div>
-  </div>
-</div>
-<br></br><br></br>
-<div  id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+<div>
+  <><div  id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src="https://i0.wp.com/www.asprinkleofjoy.com/wp-content/uploads/2020/02/IMG_1960-scaled.jpg?resize=1024%2C683&ssl=1" width="0%" height="400px" className="d-block w-100" alt="cheese"/>
@@ -164,7 +135,33 @@ Chocolate: a few pieces of quality dark chocolate or chocolate covered nuts.</li
     <span className="visually-hidden">Next</span>
   </button>
 </div>
- 
+ </>
+</div>
+
+
+
+<div className ="containerHome" id="responsive">
+  <div className ="row">
+    <div className ="col img-fluid">
+    The  Breakfast Charcuterie Board! Easy, versatile – ideal for breakfast or brunch – assembles in minutes. Shake things up this holiday season with a breakfast charcuterie board for stress free holiday mornings and entertaining.
+    
+     <img src="https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?w=800&ssl=1"   height="400" width="400" className ="img-fluid " alt="breakfast"/>
+
+    </div>
+
+    <div className ="col   ">
+      <br></br>
+    Impress your guests with the ULTIMATE Charcuterie Board! Loaded with cured meats, cheeses, crackers, fruits, nuts, jams, and more, it's the perfect appetizer for holidays and parties and ideal for easy entertaining
+     <img src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/10/charcuterie-0420w.jpg" height="380" width="400" className ="   "  alt="breakfast"  />
+    </div>
+    <div className ="col img-fluid">
+    No matter if you're throwing a holiday party or just having a lazy night in, a Vegan Charcuterie Board (aka Vegan Snack Board) is an easy and fun appetizer or main course.
+      <img src="https://nosweatvegan.com/wp-content/uploads/2020/12/vegan-charcuterie-board-1.jpg" height="420 " width="400" className =" " alt="Vegan"/>
+    </div>
+  </div>
+</div>
+<br></br><br></br>
+
 
 </div>
 
