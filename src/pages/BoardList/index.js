@@ -1,7 +1,6 @@
 import { hasSelectionSupport } from '@testing-library/user-event/dist/utils';
 import React from 'react';
 import "./styles.css";
-import "./Jokes";
 import axios from 'axios'
 import { useEffect, useState } from 'react'
  import Form from '../../components/Form';
@@ -120,24 +119,4 @@ export default allboards;
 
 
 
-// const BoardList = () => {
-//     return (
 
-        
-//        <div className='container1'>
-           
-//            <h1 id="jokeid"> !!! Hadfdf Ha Ha !!!!</h1>
-//            <div id="jokee" className='jokee'></div>
-//            {/* <button id="jokeBtn" className= "btn" >Jokes</button> */}
- 
-//  axios.get("http://localhost:8080/api/vi/allboards")
-//  const response = response.data
-
-
-//  </div>
-
- 
-
-//     )
-// }
-// export default BoardList;
