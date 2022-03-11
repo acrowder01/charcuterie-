@@ -40,7 +40,9 @@ font-weight: bold;
   /* height: auto; */
    
   /* max-width: 90%;  */
-   height: 500px; 
-    
+   /* height: 500px;  */
+   /*width: 90%; /* You can set the dimensions to whatever you want */
+   /* height: 800px; */
+   object-fit: cover;
   }
 

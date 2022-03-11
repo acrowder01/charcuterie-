@@ -13,13 +13,8 @@ const Home = () => {
              <br></br><br></br>
              </h1>
              
-           {/* https://www.tasteofhome.com/article/how-to-make-a-charcuterie-board/ >*/}
-           {/* <img src="https://www.tasteofhome.com/wp-content/uploads/2021/11/Charcuterie-Board_TOHcom21_PU6005_E10_27_8b_v2-e1637338122101.jpg?w=1110 " height="1px" class="img-fluid" alt="Board"></img> */}
-
-            
-             
-             
-
+           
+          
  <br></br><br></br>
 
  </div>
@@ -28,9 +23,15 @@ const Home = () => {
   <h1> <center> What Is Charcuterie (pronounced [shar-koo-tuh–ree)? </center> 
   </h1>
   <br></br>
+  <center> 
+
+  <img   src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/10/charcuterie-0420w.jpg" width="90%" height="400px" alt="testtest"/ >
+  </center>
+  <br></br>
   
  Charcuterie is a display of cured meats. It has gained popularity in recent times and now includes meats, cheeses, and accompaniments that pair well with meats and cheeses such as fruit, olives, nuts, spreads, etc). When people think of charcuterie boards, they are essentially referring to a cheese board.
  <br></br> <br></br>
+ 
 
  Everyone loves a good charcuterie board... and really... what's not to love!? Between the meat and the cheese and the fruit and the nuts, there's guaranteed to be something on there for everyone. Which means no more stressing over the perfect appetizer! (This is it!)
 <br></br><br></br>
@@ -81,11 +82,15 @@ Chocolate: a few pieces of quality dark chocolate or chocolate covered nuts.</li
   </ul>
   
  
+  <br></br><br></br>
  
- 
-{/* <img src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/10/charcuterie-0420w.jpg" width="70%" height="500px" alt="testtest"/> */}
+
+
+<img src="https://www.tasteofhome.com/wp-content/uploads/2021/11/Charcuterie-Board_TOHcom21_PU6005_E10_27_8b_v2-e1637338122101.jpg?w=1110" width="100%" height="600px"  ></img>
 <br></br><br></br>
-<img src="https://picky-palate.com/wp-content/uploads/2018/12/IMG_5851.jpg"  width="70% \9%" height="500px" className="img-fluid rounded mx-auto d-block img-thumbnail"  id="responsive"/>
+{/* <img src="https://picky-palate.com/wp-content/uploads/2018/12/IMG_5851.jpg"  width="70% \9%" height="500px" className="img-fluid rounded mx-auto d-block img-thumbnail"  id=" responsive"/> */}
+
+ 
 <br></br><br></br>
 
 <p>Charcuterie Board ideas
@@ -109,22 +114,23 @@ Chocolate: a few pieces of quality dark chocolate or chocolate covered nuts.</li
 
 
 
-<div className ="containerHome">
+<div className ="containerHome" id="responsive">
   <div className ="row">
-    <div className ="col">
+    <div className ="col img-fluid">
     The  Breakfast Charcuterie Board! Easy, versatile – ideal for breakfast or brunch – assembles in minutes. Shake things up this holiday season with a breakfast charcuterie board for stress free holiday mornings and entertaining.
     
-     <img src="https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?w=800&ssl=1"   height="316" width="400" className ="responsive" alt="breakfast"/>
+     <img src="https://i0.wp.com/www.agoudalife.com/wp-content/uploads/bfast-charcuterie-1.jpg?w=800&ssl=1"   height="400" width="400" className ="img-fluid " alt="breakfast"/>
 
     </div>
 
-    <div className ="col">
+    <div className ="col   ">
+      <br></br>
     Impress your guests with the ULTIMATE Charcuterie Board! Loaded with cured meats, cheeses, crackers, fruits, nuts, jams, and more, it's the perfect appetizer for holidays and parties and ideal for easy entertaining
-     <img src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/10/charcuterie-0420w.jpg" height="365" width="400"   alt="breakfast"/>
+     <img src="https://iamafoodblog.b-cdn.net/wp-content/uploads/2020/10/charcuterie-0420w.jpg" height="380" width="400" className ="   "  alt="breakfast"  />
     </div>
-    <div className ="col">
+    <div className ="col img-fluid">
     No matter if you're throwing a holiday party or just having a lazy night in, a Vegan Charcuterie Board (aka Vegan Snack Board) is an easy and fun appetizer or main course.
-      <img src="https://nosweatvegan.com/wp-content/uploads/2020/12/vegan-charcuterie-board-1.jpg" height="410" width="500" alt="Vegan"/>
+      <img src="https://nosweatvegan.com/wp-content/uploads/2020/12/vegan-charcuterie-board-1.jpg" height="420 " width="400" className =" " alt="Vegan"/>
     </div>
   </div>
 </div>
